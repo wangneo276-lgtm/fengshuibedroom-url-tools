@@ -1,0 +1,7 @@
+name: fengshuibedroom_url_tools
+description: "Upload a bedroom photo for an AI feng shui bedroom check: bed position, door line, mirrors, windows and walkways, with priority fixes. First full report free."
+version: 0.1.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+homepage: https://fengshuibedroom.app/
+repository: https://github.com/wangneo276-lgtm/fengshuibedroom-url-tools

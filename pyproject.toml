@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fengshuibedroom-url-tools"
+version = "0.1.0"
+description = "Upload a bedroom photo for an AI feng shui bedroom check: bed position, door line, mirrors, windows and walkways, with priority fixes. First full report free."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "wangneo276-lgtm" }]
+
+[project.urls]
+Homepage = "https://fengshuibedroom.app/"
+Repository = "https://github.com/wangneo276-lgtm/fengshuibedroom-url-tools"
+
+[tool.setuptools.packages.find]
+where = ["python"]
+include = ["fengshuibedroom_url_tools*"]

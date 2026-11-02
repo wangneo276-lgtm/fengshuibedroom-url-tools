@@ -1,0 +1,13 @@
+node_modules
+dist
+target
+build
+*.egg-info
+__pycache__
+.dart_tool/
+java/target/
+dotnet/**/bin/
+dotnet/**/obj/
+.build/
+meta.json
+*.gem

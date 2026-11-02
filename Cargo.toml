@@ -1,0 +1,15 @@
+[package]
+name = "fengshuibedroom-url-tools"
+version = "0.1.0"
+edition = "2021"
+description = "Upload a bedroom photo for an AI feng shui bedroom check: bed position, door line, mirrors, windows and walkways, with priority fixes. First full report free."
+license = "MIT"
+homepage = "https://fengshuibedroom.app/"
+repository = "https://github.com/wangneo276-lgtm/fengshuibedroom-url-tools"
+readme = "README.md"
+keywords = ["url", "checklist", "hospital"]
+include = ["src/**", "README.md", "LICENSE", "Cargo.toml"]
+
+[lib]
+name = "fengshuibedroom_url_tools"
+path = "src/lib.rs"

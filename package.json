@@ -1,0 +1,28 @@
+{
+  "name": "fengshuibedroom-url-tools",
+  "version": "0.1.0",
+  "description": "Upload a bedroom photo for an AI feng shui bedroom check: bed position, door line, mirrors, windows and walkways, with priority fixes. First full report free.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://fengshuibedroom.app/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangneo276-lgtm/fengshuibedroom-url-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangneo276-lgtm/fengshuibedroom-url-tools/issues"
+  },
+  "files": [
+    "index.js",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "author": "wangneo276-lgtm",
+  "bin": {
+    "fengshuibedroom-url-tools": "bin/fengshuibedroom-url.mjs"
+  }
+}
